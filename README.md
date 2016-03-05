@@ -5,97 +5,177 @@
 2层网络，每层50个节点，没使用pca，784个feature
 
 Total error: 0.0178439026584
+
 train finish....
+
 epoch:    1   train error: 14.27%   test error: 14.06%
+
 Total error: 0.0167024054303
+
 train finish....
+
 epoch:    2   train error: 18.28%   test error: 17.16%
+
 Total error: 0.0165783690138
+
 train finish....
+
 epoch:    3   train error: 17.36%   test error: 16.51%
+
 Total error: 0.0164617111447
+
 train finish....
+
 epoch:    4   train error: 20.66%   test error: 19.93%
+
 Total error: 0.016393732596
+
 train finish....
+
 epoch:    5   train error: 16.77%   test error: 16.42%
+
 Total error: 0.0163370619902
+
 train finish....
+
 epoch:    6   train error: 18.55%   test error: 17.92%
+
 Total error: 0.0162927244274
+
 train finish....
+
 epoch:    7   train error: 19.58%   test error: 18.57%
+
 Total error: 0.0163183323357
+
 train finish....
+
 epoch:    8   train error: 18.79%   test error: 17.92%
+
 Total error: 0.0162744132748
+
 train finish....
+
 epoch:    9   train error: 17.82%   test error: 16.77%
+
 Total error: 0.0162878695222
+
 train finish....
+
 epoch:   10   train error: 15.91%   test error: 14.82%
+
 Total error: 0.0162705544584
+
 train finish....
+
 epoch:   11   train error: 17.17%   test error: 16.14%
+
 Total error: 0.0162794698131
+
 train finish....
+
 epoch:   12   train error: 14.75%   test error: 14.16%
+
 Total error: 0.0162610944208
+
 train finish....
+
 epoch:   13   train error: 14.93%   test error: 14.35%
-13
+
 Total error: 0.0162327032017
+
 train finish....
+
 epoch:   14   train error: 16.63%   test error: 16.00%
+
 Total error: 0.0162563105768
+
 train finish....
+
 epoch:   15   train error: 16.13%   test error: 15.73%
+
 Total error: 0.0162445140063
+
 train finish....
+
 epoch:   16   train error: 15.46%   test error: 15.06%
+
 Total error: 0.0162577410881
+
 train finish....
+
 epoch:   17   train error: 19.85%   test error: 18.76%
+
 Total error: 0.0162493883265
+
 train finish....
+
 epoch:   18   train error: 17.72%   test error: 16.86%
+
 Total error: 0.0162738523541
+
 train finish....
+
 epoch:   19   train error: 16.48%   test error: 16.04%
+
 Total error: 0.016272623887
+
 train finish....
+
 epoch:   20   train error: 17.70%   test error: 17.17%
 
 其他机器学习算法
 
 reading training and testing data...
+
 ******************** Data Info *********************
+
 #training data: 50000, #testing_data: 10000, dimension: 784
+
 ******************* NB ********************
+
 training took 6.919778s!
+
 accuracy: 83.69%
+
 ******************* KNN ********************
+
 training took 27.188612s!
+
 accuracy: 96.64%
+
 ******************* LR ********************
+
 training took 109.885828s!
+
 accuracy: 91.98%
+
 ******************* RF ********************
+
 training took 7.944588s!
+
 accuracy: 94.01%
+
 ******************* DT ********************
+
 training took 48.240907s!
+
 accuracy: 87.04%
+
 ******************* SVM ********************
+
 training took 6038.711516s!
+
 accuracy: 94.35%
+
 ******************* GBDT ********************
+
 training took 7360.714812s!
+
 accuracy: 96.17%
 
 
 两层网络，使用pca后335个feature，每层60个节点
-
 create pca....
 n_compontes = 335
 create model.....
