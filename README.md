@@ -1,5 +1,5 @@
 # Basic-machine-learning-algorithms
-以mnist手写数字当训练集，使用skit-learn和pybrain工具包，使用各种基础算法进行训练
+以mnist手写数字当训练集，使用skit-learn和pybrain工具包，使用各种基础算法进行训练\n
 
 
 2层网络，每层50个节点，没使用pca，784个feature
