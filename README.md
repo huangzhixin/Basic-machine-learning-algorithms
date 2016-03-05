@@ -5,9 +5,7 @@
 2层网络，每层50个节点，没使用pca，784个feature
 
 Total error: 0.0178439026584
-
 train finish....
-
 epoch:    1   train error: 14.27%   test error: 14.06%
 Total error: 0.0167024054303
 train finish....
