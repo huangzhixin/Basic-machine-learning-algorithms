@@ -2,7 +2,7 @@
 以mnist手写数字当训练集，使用skit-learn和pybrain工具包，使用各种基础算法进行训练
 
 
-2层网络，每层50个节点，没使用pca，784个feature
+#2层网络，每层50个节点，没使用pca，784个feature
 
 Total error: 0.0178439026584
 
@@ -124,13 +124,13 @@ train finish....
 
 epoch:   20   train error: 17.70%   test error: 17.17%
 
-其他机器学习算法
+#其他机器学习算法
 
 reading training and testing data...
 
 ******************** Data Info *********************
 
-#training data: 50000, #testing_data: 10000, dimension: 784
+raining data: 50000, #testing_data: 10000, dimension: 784
 
 ******************* NB ********************
 
@@ -175,88 +175,134 @@ training took 7360.714812s!
 accuracy: 96.17%
 
 
-两层网络，使用pca后335个feature，每层60个节点
+#两层网络，使用pca后335个feature，每层60个节点
+
 create pca....
+
 n_compontes = 335
+
 create model.....
+
 335
+
 Total error: 0.0188069646553
+
 train finish....
+
 epoch:    1   train error: 16.13%   test error: 15.92%
-1
+
 Total error: 0.0170109501122
+
 train finish....
+
 epoch:    2   train error: 16.36%   test error: 15.66%
-2
+
 Total error: 0.0167530350852
+
 train finish....
+
 epoch:    3   train error: 17.80%   test error: 17.06%
-3
+
 Total error: 0.0166757490514
+
 train finish....
+
 epoch:    4   train error: 17.03%   test error: 16.16%
-4
+
 Total error: 0.016650202723
+
 train finish....
+
 epoch:    5   train error: 17.48%   test error: 16.97%
-5
+
 Total error: 0.0166019048484
+
 train finish....
+
 epoch:    6   train error: 17.29%   test error: 16.49%
-6
+
 Total error: 0.0165702847632
+
 train finish....
+
 epoch:    7   train error: 18.14%   test error: 16.97%
-7
+
 Total error: 0.0165095100433
+
 train finish....
+
 epoch:    8   train error: 15.64%   test error: 15.09%
-8
+
 Total error: 0.0164988330919
+
 train finish....
+
 epoch:    9   train error: 15.99%   test error: 15.51%
-9
+
 Total error: 0.0165114423688
+
 train finish....
+
 epoch:   10   train error: 19.30%   test error: 18.77%
-10
+
 Total error: 0.0164744782284
+
 train finish....
+
 epoch:   11   train error: 17.88%   test error: 16.88%
-11
+
 Total error: 0.0164676615739
+
 train finish....
+
 epoch:   12   train error: 16.49%   test error: 15.82%
-12
+
 Total error: 0.0164493295057
+
 train finish....
+
 epoch:   13   train error: 17.78%   test error: 16.79%
-13
+
 Total error: 0.0164211944941
+
 train finish....
+
 epoch:   14   train error: 16.39%   test error: 15.67%
-14
+
 Total error: 0.0164268378456
+
 train finish....
+
 epoch:   15   train error: 16.79%   test error: 16.12%
-15
+
 Total error: 0.0164005613509
+
 train finish....
+
 epoch:   16   train error: 15.39%   test error: 14.84%
-16
+
 Total error: 0.0163958385784
+
 train finish....
+
 epoch:   17   train error: 15.98%   test error: 15.58%
-17
+
 Total error: 0.0163698472244
+
 train finish....
+
 epoch:   18   train error: 17.42%   test error: 17.00%
-18
+
 Total error: 0.01639310093
+
 train finish....
+
 epoch:   19   train error: 16.24%   test error: 15.35%
-19
+
 Total error: 0.0163815263524
+
 train finish....
+
 epoch:   20   train error: 14.95%   test error: 14.38%
+
 training took 2591.329314s!
